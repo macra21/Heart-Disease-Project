@@ -1,4 +1,4 @@
-name: D:\ML_projects\sample_project_1\env
+name: D:\ML_projects\heart-disease-project\env
 channels:
   - conda-forge
   - defaults
@@ -202,4 +202,10 @@ dependencies:
   - yaml=0.2.5=he774522_0
   - zeromq=4.3.5=h6c54ac7_1
   - zstd=1.5.7=hbeecb71_2
-prefix: D:\ML_projects\sample_project_1\env
+  - pip:
+      - catboost==1.2.8
+      - graphviz==0.21
+      - narwhals==2.13.0
+      - plotly==6.5.0
+      - xgboost==3.1.2
+prefix: D:\ML_projects\heart-disease-project\env
